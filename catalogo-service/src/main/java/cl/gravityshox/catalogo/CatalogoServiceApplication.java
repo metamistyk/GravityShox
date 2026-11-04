@@ -1,4 +1,4 @@
-package cl.gravityshox.catalogo_service;
+package cl.gravityshox.catalogo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

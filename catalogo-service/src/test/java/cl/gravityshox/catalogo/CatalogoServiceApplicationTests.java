@@ -1,4 +1,4 @@
-package cl.gravityshox.catalogo_service;
+package cl.gravityshox.catalogo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
