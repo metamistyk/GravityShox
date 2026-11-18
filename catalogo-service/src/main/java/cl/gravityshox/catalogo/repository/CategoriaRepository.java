@@ -6,4 +6,5 @@ import cl.gravityshox.catalogo.entity.Categoria;
 
 public interface CategoriaRepository extends JpaRepository<Categoria, Long>{
 
+    Boolean existsByNombreIgnoreCase (String nombre);
 }
