@@ -6,4 +6,6 @@ import cl.gravityshox.catalogo.entity.Marca;
 
 public interface MarcaRepository extends JpaRepository <Marca, Long> {
 
+    boolean existsByNombreIgnoreCase(String nombre);
+
 }
